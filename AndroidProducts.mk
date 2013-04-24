@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_mb886.mk
+    $(LOCAL_DIR)/full_qinara.mk
