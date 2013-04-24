@@ -1,9 +1,9 @@
 -include device/motorola/msm8960-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/motorola/mb886/BoardConfigVendor.mk
+-include vendor/motorola/qinara/BoardConfigVendor.mk
 
-LOCAL_PATH := device/motorola/mb886
+LOCAL_PATH := device/motorola/qinara
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8960-common
