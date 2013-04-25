@@ -1,5 +1,8 @@
 -include device/motorola/msm8960-common/BoardConfigCommon.mk
 
+# Disable NFC
+BOARD_HAVE_NFC := ""
+
 # inherit from the proprietary version
 -include vendor/motorola/mb886/BoardConfigVendor.mk
 
