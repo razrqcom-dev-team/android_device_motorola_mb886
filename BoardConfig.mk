@@ -1,3 +1,6 @@
+# Atrix HD Doesn't have NFC
+NO_NFC_MOTO_MSM8960 := TRUE
+
 -include device/motorola/msm8960-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
