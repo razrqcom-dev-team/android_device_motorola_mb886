@@ -9,7 +9,7 @@ LOCAL_PATH := device/motorola/mb886
 TARGET_USES_MOTOROLA_MSM8960_COMMON_LIBLIGHT := true
 
 # Inline kernel building
-TARGET_KERNEL_VARIANT_CONFIG := msm8960_mmi_gsm_defconfig
+#TARGET_KERNEL_VARIANT_CONFIG := msm8960_mmi_gsm_defconfig
 
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
