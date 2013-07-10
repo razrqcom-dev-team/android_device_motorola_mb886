@@ -36,6 +36,10 @@ PRODUCT_LOCALES += xhdpi
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Ubuntu
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/ubuntu-session.d.conf:system/etc/ubuntu-session.d/mb886.conf
+
 # QCOM Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
